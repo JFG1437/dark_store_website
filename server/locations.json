@@ -1,0 +1,18 @@
+{
+    "airoli": [
+      {
+        "rank": 1,
+        "name": "Airoli Sector 3 Distribution Hub",
+        "address": "Plot 17, Sector 3, Airoli, Navi Mumbai, Maharashtra 400708",
+        "lat": 19.155,
+        "lon": 72.995
+      },
+      {
+        "rank": 2,
+        "name": "Airoli Railway Station Commercial Zone",
+        "address": "New Airoli Railway Station, Sector 3, Airoli, Navi Mumbai",
+        "lat": 19.158,
+        "lon": 72.998
+      }
+    ]
+  }
