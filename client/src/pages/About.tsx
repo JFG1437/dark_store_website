@@ -85,6 +85,163 @@
 
 
 
+// import {
+//   Database,
+//   TrendingUp,
+//   MapPin,
+//   Truck,
+//   Box,
+//   DollarSign,
+//   Users,
+// } from "lucide-react";
+
+// export const About = () => (
+//   <div className="container mx-auto px-6 py-12">
+//     {/* Section header */}
+//     <div className="text-center mb-16">
+//       <p className="text-sm font-semibold uppercase text-blue-600 mb-2">
+//         About Our Project
+//       </p>
+//       <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
+//         How We Optimize Dark Store Locations
+//       </h1>
+//       <p className="text-gray-600 max-w-2xl mx-auto">
+//         Our final year project uses advanced algorithms and data analysis to identify
+//         optimal locations for dark stores.
+//       </p>
+//     </div>
+
+//     {/* 4‑card feature grid */}
+//     <div className="grid gap-10 md:grid-cols-2">
+//       {/* Data Collection */}
+//       <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
+//         <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+//           <Database className="w-6 h-6" />
+//         </div>
+//         <h2 className="text-xl font-semibold text-gray-900 mb-2">
+//           Data Collection
+//         </h2>
+//         <p className="text-gray-700 leading-relaxed">
+//           We gather demographic data, traffic patterns, and consumer behavior to
+//           understand area dynamics.
+//         </p>
+//       </div>
+
+//       {/* Analysis & Modeling */}
+//       <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
+//         <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+//           <TrendingUp className="w-6 h-6" />
+//         </div>
+//         <h2 className="text-xl font-semibold text-gray-900 mb-2">
+//           Analysis &amp; Modeling
+//         </h2>
+//         <p className="text-gray-700 leading-relaxed">
+//           Our proprietary algorithms analyze multiple factors to score potential
+//           locations based on business potential.
+//         </p>
+//       </div>
+
+//       {/* Location Ranking */}
+//       <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
+//         <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+//           <MapPin className="w-6 h-6" />
+//         </div>
+//         <h2 className="text-xl font-semibold text-gray-900 mb-2">
+//           Location Ranking
+//         </h2>
+//         <p className="text-gray-700 leading-relaxed">
+//           We rank locations based on accessibility, catchment area, competition,
+//           and operational feasibility.
+//         </p>
+//       </div>
+
+//       {/* Logistics Optimization */}
+//       <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
+//         <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+//           <Truck className="w-6 h-6" />
+//         </div>
+//         <h2 className="text-xl font-semibold text-gray-900 mb-2">
+//           Logistics Optimization
+//         </h2>
+//         <p className="text-gray-700 leading-relaxed">
+//           The final recommendations optimize for delivery times, inventory
+//           management, and operational efficiency.
+//         </p>
+//       </div>
+//     </div>
+
+//     {/* Why Dark Stores Matter */}
+//     <div className="mt-20 bg-white p-10 rounded-2xl shadow-lg">
+//       <h2 className="text-3xl font-bold text-gray-900 mb-4">
+//         Why Dark Stores Matter
+//       </h2>
+//       <p className="text-gray-600 mb-8">
+//         Dark stores are micro‑fulfillment centers strategically placed to enable
+//         rapid deliveries in urban areas. They serve as dedicated fulfillment hubs
+//         that optimize the last‑mile delivery process, improving customer
+//         satisfaction while reducing operational costs.
+//       </p>
+
+//       <div className="grid gap-8 md:grid-cols-3">
+//         {/* Faster Delivery */}
+//         <div className="bg-white p-6 rounded-lg shadow-md">
+//           <div className="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-3">
+//             <Box className="w-5 h-5" />
+//           </div>
+//           <h3 className="text-lg font-semibold text-gray-900 mb-2">
+//             Faster Delivery
+//           </h3>
+//           <p className="text-gray-600">
+//             Strategically located dark stores reduce delivery times to under 30
+//             minutes.
+//           </p>
+//         </div>
+
+//         {/* Cost Efficiency */}
+//         <div className="bg-white p-6 rounded-lg shadow-md">
+//           <div className="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-3">
+//             <DollarSign className="w-5 h-5" />
+//           </div>
+//           <h3 className="text-lg font-semibold text-gray-900 mb-2">
+//             Cost Efficiency
+//           </h3>
+//           <p className="text-gray-600">
+//             Optimize operational costs through strategic placement and inventory
+//             management.
+//           </p>
+//         </div>
+
+//         {/* Customer Satisfaction */}
+//         <div className="bg-white p-6 rounded-lg shadow-md">
+//           <div className="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-3">
+//             <Users className="w-5 h-5" />
+//           </div>
+//           <h3 className="text-lg font-semibold text-gray-900 mb-2">
+//             Customer Satisfaction
+//           </h3>
+//           <p className="text-gray-600">
+//             Meet growing customer expectations for rapid delivery and product
+//             availability.
+//           </p>
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import {
   Database,
   TrendingUp,
@@ -96,135 +253,141 @@ import {
 } from "lucide-react";
 
 export const About = () => (
-  <div className="container mx-auto px-6 py-12">
-    {/* Section header */}
-    <div className="text-center mb-16">
-      <p className="text-sm font-semibold uppercase text-blue-600 mb-2">
-        About Our Project
-      </p>
-      <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
-        How We Optimize Dark Store Locations
-      </h1>
-      <p className="text-gray-600 max-w-2xl mx-auto">
-        Our final year project uses advanced algorithms and data analysis to identify
-        optimal locations for dark stores.
-      </p>
-    </div>
+  <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 text-white py-16 px-6 relative overflow-hidden">
+    {/* Background Blobs */}
+    <div className="absolute top-[-50px] left-[-50px] w-96 h-96 bg-blue-800 rounded-full opacity-20 blur-3xl animate-pulse" />
+    <div className="absolute bottom-[-60px] right-[-60px] w-96 h-96 bg-purple-700 rounded-full opacity-20 blur-3xl animate-pulse delay-1000" />
 
-    {/* 4‑card feature grid */}
-    <div className="grid gap-10 md:grid-cols-2">
-      {/* Data Collection */}
-      <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
-        <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
-          <Database className="w-6 h-6" />
-        </div>
-        <h2 className="text-xl font-semibold text-gray-900 mb-2">
-          Data Collection
-        </h2>
-        <p className="text-gray-700 leading-relaxed">
-          We gather demographic data, traffic patterns, and consumer behavior to
-          understand area dynamics.
+    <div className="relative z-10 max-w-7xl mx-auto text-center space-y-14">
+      {/* Section header */}
+      <div className="text-center mb-16">
+        <p className="text-sm font-semibold uppercase text-blue-600 mb-2">
+          About Our Project
+        </p>
+        <h1 className="text-4xl font-extrabold text-gray-100 mb-4">
+          How We Optimize Dark Store Locations
+        </h1>
+        <p className="text-gray-300 max-w-2xl mx-auto">
+          Our final year project uses advanced algorithms and data analysis to identify
+          optimal locations for dark stores.
         </p>
       </div>
 
-      {/* Analysis & Modeling */}
-      <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
-        <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
-          <TrendingUp className="w-6 h-6" />
-        </div>
-        <h2 className="text-xl font-semibold text-gray-900 mb-2">
-          Analysis &amp; Modeling
-        </h2>
-        <p className="text-gray-700 leading-relaxed">
-          Our proprietary algorithms analyze multiple factors to score potential
-          locations based on business potential.
-        </p>
-      </div>
-
-      {/* Location Ranking */}
-      <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
-        <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
-          <MapPin className="w-6 h-6" />
-        </div>
-        <h2 className="text-xl font-semibold text-gray-900 mb-2">
-          Location Ranking
-        </h2>
-        <p className="text-gray-700 leading-relaxed">
-          We rank locations based on accessibility, catchment area, competition,
-          and operational feasibility.
-        </p>
-      </div>
-
-      {/* Logistics Optimization */}
-      <div className="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl">
-        <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
-          <Truck className="w-6 h-6" />
-        </div>
-        <h2 className="text-xl font-semibold text-gray-900 mb-2">
-          Logistics Optimization
-        </h2>
-        <p className="text-gray-700 leading-relaxed">
-          The final recommendations optimize for delivery times, inventory
-          management, and operational efficiency.
-        </p>
-      </div>
-    </div>
-
-    {/* Why Dark Stores Matter */}
-    <div className="mt-20 bg-white p-10 rounded-2xl shadow-lg">
-      <h2 className="text-3xl font-bold text-gray-900 mb-4">
-        Why Dark Stores Matter
-      </h2>
-      <p className="text-gray-600 mb-8">
-        Dark stores are micro‑fulfillment centers strategically placed to enable
-        rapid deliveries in urban areas. They serve as dedicated fulfillment hubs
-        that optimize the last‑mile delivery process, improving customer
-        satisfaction while reducing operational costs.
-      </p>
-
-      <div className="grid gap-8 md:grid-cols-3">
-        {/* Faster Delivery */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-3">
-            <Box className="w-5 h-5" />
+      {/* 4‑card feature grid */}
+      <div className="grid gap-10 md:grid-cols-2">
+        {/* Data Collection */}
+        <div className="bg-gray-800 p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl hover:bg-blue-900">
+          <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+            <Database className="w-6 h-6" />
           </div>
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">
-            Faster Delivery
-          </h3>
-          <p className="text-gray-600">
-            Strategically located dark stores reduce delivery times to under 30
-            minutes.
+          <h2 className="text-xl font-semibold text-gray-100 mb-2">
+            Data Collection
+          </h2>
+          <p className="text-gray-300 leading-relaxed">
+            We gather demographic data, traffic patterns, and consumer behavior to
+            understand area dynamics.
           </p>
         </div>
 
-        {/* Cost Efficiency */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-3">
-            <DollarSign className="w-5 h-5" />
+        {/* Analysis & Modeling */}
+        <div className="bg-gray-800 p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl hover:bg-blue-900">
+          <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+            <TrendingUp className="w-6 h-6" />
           </div>
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">
-            Cost Efficiency
-          </h3>
-          <p className="text-gray-600">
-            Optimize operational costs through strategic placement and inventory
-            management.
+          <h2 className="text-xl font-semibold text-gray-100 mb-2">
+            Analysis &amp; Modeling
+          </h2>
+          <p className="text-gray-300 leading-relaxed">
+            Our proprietary algorithms analyze multiple factors to score potential
+            locations based on business potential.
           </p>
         </div>
 
-        {/* Customer Satisfaction */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-3">
-            <Users className="w-5 h-5" />
+        {/* Location Ranking */}
+        <div className="bg-gray-800 p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl hover:bg-blue-900">
+          <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+            <MapPin className="w-6 h-6" />
           </div>
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">
-            Customer Satisfaction
-          </h3>
-          <p className="text-gray-600">
-            Meet growing customer expectations for rapid delivery and product
-            availability.
+          <h2 className="text-xl font-semibold text-gray-100 mb-2">
+            Location Ranking
+          </h2>
+          <p className="text-gray-300 leading-relaxed">
+            We rank locations based on accessibility, catchment area, competition,
+            and operational feasibility.
+          </p>
+        </div>
+
+        {/* Logistics Optimization */}
+        <div className="bg-gray-800 p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-xl hover:bg-blue-900">
+          <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-4">
+            <Truck className="w-6 h-6" />
+          </div>
+          <h2 className="text-xl font-semibold text-gray-100 mb-2">
+            Logistics Optimization
+          </h2>
+          <p className="text-gray-300 leading-relaxed">
+            The final recommendations optimize for delivery times, inventory
+            management, and operational efficiency.
           </p>
         </div>
       </div>
+
+      {/* Why Dark Stores Matter */}
+      <div className="mt-20 bg-gray-800 p-10 rounded-2xl shadow-lg">
+        <h2 className="text-3xl font-bold text-gray-100 mb-4">
+          Why Dark Stores Matter
+        </h2>
+        <p className="text-gray-400 mb-8">
+          Dark stores are micro‑fulfillment centers strategically placed to enable
+          rapid deliveries in urban areas. They serve as dedicated fulfillment hubs
+          that optimize the last‑mile delivery process, improving customer
+          satisfaction while reducing operational costs.
+        </p>
+
+        <div className="grid gap-8 md:grid-cols-3">
+          {/* Faster Delivery */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-blue-900 transition">
+            <div className="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-3">
+              <Box className="w-5 h-5" />
+            </div>
+            <h3 className="text-lg font-semibold text-gray-100 mb-2">
+              Faster Delivery
+            </h3>
+            <p className="text-gray-300">
+              Strategically located dark stores reduce delivery times to under 30
+              minutes.
+            </p>
+          </div>
+
+          {/* Cost Efficiency */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-blue-900 transition">
+            <div className="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-3">
+              <DollarSign className="w-5 h-5" />
+            </div>
+            <h3 className="text-lg font-semibold text-gray-100 mb-2">
+              Cost Efficiency
+            </h3>
+            <p className="text-gray-300">
+              Optimize operational costs through strategic placement and inventory
+              management.
+            </p>
+          </div>
+
+          {/* Customer Satisfaction */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-blue-900 transition">
+            <div className="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-3">
+              <Users className="w-5 h-5" />
+            </div>
+            <h3 className="text-lg font-semibold text-gray-100 mb-2">
+              Customer Satisfaction
+            </h3>
+            <p className="text-gray-300">
+              Meet growing customer expectations for rapid delivery and product
+              availability.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </div>
 );

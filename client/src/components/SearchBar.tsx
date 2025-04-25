@@ -6,29 +6,51 @@ export const SearchBar = () => {
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const navigate = useNavigate();
 
+  // useEffect(() => {
+  //   const fetchSuggestions = async () => {
+  //     if (query.length > 0) {
+  //       try {
+  //         const response = await fetch(`http://localhost:3001/api/search?term=${query}`);
+  //         const data = await response.json();
+  //         setSuggestions(data);
+  //       } catch (error) {
+  //         console.error('Search error:', error);
+  //       }
+  //     }
+  //   };
+    
+  //   const timer = setTimeout(fetchSuggestions, 300);
+  //   return () => clearTimeout(timer);
+  // }, [query]);
+
+
   useEffect(() => {
+    if (query.trim() === '') {
+      setSuggestions([]); // Clear suggestions when input is empty
+      return;
+    }
+  
     const fetchSuggestions = async () => {
-      if (query.length > 0) {
-        try {
-          const response = await fetch(`http://localhost:3001/api/search?term=${query}`);
-          const data = await response.json();
-          setSuggestions(data);
-        } catch (error) {
-          console.error('Search error:', error);
-        }
+      try {
+        const response = await fetch(`http://localhost:3001/api/search?term=${query}`);
+        const data = await response.json();
+        setSuggestions(data);
+      } catch (error) {
+        console.error('Search error:', error);
       }
     };
-    
+  
     const timer = setTimeout(fetchSuggestions, 300);
     return () => clearTimeout(timer);
   }, [query]);
+  
 
   return (
     <div className="w-full max-w-3xl mx-auto">
       <input
         type="text"
         placeholder="Search for an area (e.g., Airoli, Borivali...)"
-        className="w-full p-4 text-lg rounded-xl shadow-md border border-gray-200 focus:ring-4 focus:ring-blue-200 focus:border-blue-500"
+        className="w-full p-4 text-lg rounded-xl shadow-md border border-gray-200 focus:ring-4 focus:ring-blue-200 focus:border-blue-500 text-black"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
@@ -38,7 +60,7 @@ export const SearchBar = () => {
           {suggestions.map((suggestion) => (
             <div
               key={suggestion}
-              className="p-3 hover:bg-blue-50 cursor-pointer border-b last:border-0"
+              className="p-3 hover:bg-blue-50 cursor-pointer border-b last:border-0 text-black"
               onClick={() => navigate(`/results/${suggestion}`)}
             >
               {suggestion}
